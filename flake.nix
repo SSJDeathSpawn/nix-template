@@ -12,6 +12,10 @@
                 path = ./rust;
                 description = "Rust template for cargo and rust-analyzer";
             };
+            python = {
+                path = ./python;
+                description = "Python 3 template with no installed packages";
+            };
         };
         defaultTemplate = self.templates.c;
     };
