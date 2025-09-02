@@ -2,7 +2,7 @@
   description = "C ";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=release-24.11";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=release-25.05";
   };
 
   outputs = { self, nixpkgs } : 
