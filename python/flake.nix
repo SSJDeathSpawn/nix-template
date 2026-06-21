@@ -2,7 +2,7 @@
   description = "Python";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=release-25.11";
+    nixpkgs.url = "nixpkgs";
   };
 
   outputs = { self, nixpkgs } : 
