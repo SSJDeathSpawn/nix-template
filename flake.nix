@@ -4,9 +4,13 @@
     '';
     outputs = {self}: {
         templates = {
-            c = {
-                path = ./c;
+            c-meson = {
+                path = ./c-meson;
                 description = "C template meson for src as default";
+            };
+            c-make = {
+                path = ./c-make;
+                description = "C template for make";
             };
             rust = {
                 path = ./rust;
